@@ -1,0 +1,105 @@
+#pi {
+    color: #111;
+    font-family: Didot, serif;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+    #pi:after {
+        content: ' ';
+        display: block;
+        border: 2px solid #d0d0d0;
+        border-radius: 1px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+        -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    }
+
+#b {
+    font-family: system-ui;
+    font-size: 40px;
+}
+
+#one, #two {
+    padding: 0;
+    height: 50px;
+    text-align: center;
+    position: center;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0,0,0,.15);
+    background-color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Bradley Hand, cursive;
+}
+#one {
+    background-color: khaki;
+}
+
+#two {
+    background-color: burlywood;
+}
+
+b {
+    font-style: italic;
+}
+
+#frame {
+    float: right;
+    width: 600px;
+    height: 1000px;
+}
+
+#output, #result {
+    float: left;
+    height: 500px;
+    width: 600px;
+    border: 1px solid #ccc;
+    overflow: auto;
+    overflow-x: hidden;
+    font-family: Didot, serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+#result{
+    height:455px;
+}
+a:link, a:visited {
+    background-color: white;
+    color: black;
+    border: 2px solid #5e6570;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#y {
+    font-family: 'Bradley Hand ITC';
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#oxf {
+    background-color: #bec5d1;
+    color:black;
+    border: 2px solid #5e6570;
+    padding: 5px 10px;
+}
+a:visited {
+    background-color: bisque;
+}
+a:visited#oxf{
+    background-color:cornsilk;
+}
+a:hover, a:active {
+    background-color: lavender;
+    color: indianred;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>StudyAssist</title>
+    <link rel="stylesheet" href="StyleSheet.css">
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <p id="pi">Study Assist.</p>
+    <div id="b">"So many books, so little time!"" </div>
+    <div class="sty">
+        <div id="one">
+            Upload text file here and get description link for each and every word
+            <input type='file' accept='text/plain' onchange='openFile(event)'>
+            <br><b>Question</b>: file format is PDF!
+        </div>
+        <div id="two">
+            <b>Answer</b>: Copy text from source material and paste here
+            <input type="text" id="lastname">
+            <button id="say" onclick='fun()'>proceed</button>
+        </div>
+        <div id="y">
+        </div>
+        <div id='output'></div>
+        <iframe name="iframe1" src="target.html" id="frame"></iframe><br>
+        <div id="y">
+        </div>
+        <div id='result'></div>
+    </div>
+</body>
+</html>
